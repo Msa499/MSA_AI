@@ -1,0 +1,39 @@
+<!-- ai_options.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #e9f0f4; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+        .service { margin: 20px 0; }
+        .btn { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Services</h1>
+        <div class="service">
+            <p>Create Cartoon Movies</p>
+            <a href="/request?service=cartoon" class="btn">Create Request</a>
+        </div>
+        <div class="service">
+            <p>Create Real Movies</p>
+            <a href="/request?service=real" class="btn">Create Request</a>
+        </div>
+        <div class="service">
+            <p>Create Voiceover</p>
+            <a href="/request?service=voiceover" class="btn">Create Request</a>
+        </div>
+        <div class="service">
+            <p>Image Design using AI</p>
+            <a href="/request?service=image-design" class="btn">Create Request</a>
+        </div>
+        <div class="service">
+            <p>Convert Text to Voice and Image</p>
+            <a href="/request?service=text-to-voice-image" class="btn">Create Request</a>
+        </div>
+    </div>
+</body>
+</html>
